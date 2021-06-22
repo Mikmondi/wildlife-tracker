@@ -1,0 +1,51 @@
+{{#partial "content"}}
+
+    {{#if username }}
+
+        <div class="jumbotron bg-none hero">
+            <div class="container">
+                <h1 class="display-4">Wildlife Tracker</h1>
+                <p>
+                    An endangered species is a type of organism that is threatened by extinction. Species become
+                    endangered for two main reasons: loss of habitat and loss of genetic variation.
+                    Africa is home to some of the world's most endangered species, including the mountain gorilla,
+                    Grevy’s zebra, and Ethiopian wolf. To protect populations from further decline, our on-the-ground safeguards
+                    involve training rangers and using sniffer dogs to stop wildlife traffickers. Wildlife must survive
+                    in their natural habitats, so we empower local communities through conservation-friendly development
+                    and work with international agencies to protect Africa’s natural resources.Critical to protecting these
+                    vital ecosystems are people. Sharing land across the continent, local communities and wildlife often
+                    live alongside each other, leading to struggles for space and water. If people and wildlife learn to
+                    live together — inside and outside of protected areas — the future for all will thrive.
+                </p>
+
+            </div>
+        </div>
+        <div class="btn-group d-flex justify-content-center">
+            <a href="sightings/new" class="btn btn-dark">New Sighting</a>
+            <a href="/sightings" class="btn btn-dark">View Sightings</a>
+        </div>
+
+    {{else }}
+        <div class="card" style="max-width: 480px">
+            <div class="card-header">
+                <p class="card-header-title">
+                    Login
+                </p>
+            </div>
+            <div class="card-body">
+                <form action="/login" method="post" class="form-inline">
+
+                    <div class="form-group mx-sm-3 mb-2">
+                        <label for="username" class="sr-only">Username</label>
+                        <input type="text" id="username" name="username" class="form-control" placeholder="Username">
+                    </div>
+                    <button type="submit" class="btn btn-dark mx-sm-3 mb-2">Start Protecting</button>
+                </form>
+
+            </div>
+
+        </div>
+    {{/if }}
+{{/partial }}
+
+{{> layout.hbs}}
