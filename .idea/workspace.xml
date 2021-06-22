@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e4f1695-fa13-472e-90ae-6562c93cf1dd" name="Default Changelist" comment="" />
+    <list default="true" id="3e4f1695-fa13-472e-90ae-6562c93cf1dd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/sighting-detail.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/sighting-form.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/sightings.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
