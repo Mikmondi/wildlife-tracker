@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e4f1695-fa13-472e-90ae-6562c93cf1dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/DB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Endangered.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/CommonAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/DatabaseProps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/EndangeredAnimal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/DB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Location.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Ranger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Sighting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Sighting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/WildLife.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +28,18 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -41,7 +58,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/Wildlife-Tracker" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
