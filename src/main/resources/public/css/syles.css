@@ -1,0 +1,92 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background-color: #DEE2E6;
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+  color: #F2E8CF;
+  position: relative;
+}
+
+.watermark {
+  color: #343a401f;
+  position: absolute;
+  text-align: left;
+  font-size: 90px;
+}
+
+.template-content{
+    margin-top: 70px;
+}
+
+.app-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.app-logo .title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+.wildlife-nav {
+  background-color: #343A40;
+}
+
+.wildlife-nav .nav-link {
+  color: black;
+}
+
+.title {
+  color: #6C757D;
+}
+
+.title:hover, .nav-link:hover {
+  color: #F2E8CF;
+}
+
+.card, .list-group-item {
+  background: none;
+}
+
+.list-group-item {
+  text-align: center;
+}
+
+.hero, .card-header, .card-footer {
+  background-color: #343A40;
+}
+
+.card-header, .card-footer {
+  color: #F2E8CF;
+}
+
+.card-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.card-body {
+  background-color: #ADB5BD;
+  color: black;
+  font-weight: bold;
+}
+*# sourceMappingURL=styles.css.map *

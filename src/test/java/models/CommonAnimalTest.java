@@ -1,5 +1,6 @@
 package models;
-
+import org.sql2o.Connection;
+import org.sql2o.Sql2o;
 import org.junit.Rule;
 import org.junit.Test;
 
